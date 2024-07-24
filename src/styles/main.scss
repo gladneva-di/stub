@@ -187,6 +187,9 @@ body {
     position: absolute;
     max-width: 330px;
   }
+  .col--phone-val, .col--email-val {
+    position: absolute;
+  }
 }
 @media only screen and (max-width: 560px) {
   .header__title,
@@ -236,6 +239,10 @@ body {
     padding-bottom: 27px;
     position: unset;
   }
+  .col--phone-val, .col--email-val {
+    position: unset;
+  }
+
   .col {
     width: 100%;
   }

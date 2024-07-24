@@ -161,7 +161,9 @@ body {
     padding: 16px 0; }
   .main__address p {
     position: absolute;
-    max-width: 330px; } }
+    max-width: 330px; }
+  .col--phone-val, .col--email-val {
+    position: absolute; } }
 
 @media only screen and (max-width: 560px) {
   .header__title,
@@ -201,6 +203,8 @@ body {
     padding: 12px 0; }
   .main__address p {
     padding-bottom: 27px;
+    position: unset; }
+  .col--phone-val, .col--email-val {
     position: unset; }
   .col {
     width: 100%; }
